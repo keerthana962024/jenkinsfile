@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('git clone') {
             steps {
-                git branch: 'main', credentialsId: '371eb9e8-9b5b-443a-b0d6-fe46cb107d71', url: 'https://github.com/keerthana962024/kprepo.git'
+                git branch: 'v1', credentialsId: '371eb9e8-9b5b-443a-b0d6-fe46cb107d71', url: 'https://github.com/keerthana962024/kprepo.git'
             }
 			}
         stage('list') {
